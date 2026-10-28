@@ -12,8 +12,7 @@ The project integrates Okta, Python, FastAPI, LangGraph, and Google Gemini to tr
 - Explore how agentic AI can support Identity and Access Management (IAM) and Privileged Access Management (PAM).
 
 ### Architecture
-```
-<div align=center>
+<div align="center">
 Okta Development Organization
 ↓
 Okta System Log API
@@ -34,9 +33,9 @@ Investigation Assessment
 ↓
 Human Review
 </div>
-```
+
 ### Key Features
-```
+
 #### 1. Okta System Log Integration
 - Retrieves identity and authentication events from an Okta development organization.
 - Uses the Okta System Log API as the source of monitoring data.
@@ -77,7 +76,6 @@ The AI component supports analysis; it does not independently authorize or execu
     <td>Initiate an AI-assisted investigation</td>
   </tr>
 </table>
-```
 
 ### Technology Stack
 <table>
@@ -113,14 +111,12 @@ The AI component supports analysis; it does not independently authorize or execu
 </table>
 
 ### Workflow
-```
 1. Collect: Retrieve identity-related events from the Okta System Log API.
 2. Detect: Evaluate events against configured monitoring rules.
 3. Prioritize: Organize detected findings for investigation.
 4. Investigate: Pass relevant finding details through the LangGraph workflow.
 5. Assess: Use Google Gemini to generate an investigation assessment and recommendations.
 6. Review: Present the results for human evaluation.
-```
 
 ### Scope and Limitations
 Project P is a learning and prototyping project focused on identity-event monitoring and AI-assisted investigation.
