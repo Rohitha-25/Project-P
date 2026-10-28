@@ -12,7 +12,7 @@ The project integrates Okta, Python, FastAPI, LangGraph, and Google Gemini to tr
 - Explore how agentic AI can support Identity and Access Management (IAM) and Privileged Access Management (PAM).
 
 ### Architecture
-<div align="center">
+```
 Okta Development Organization
 ↓
 Okta System Log API
@@ -32,7 +32,7 @@ Google Gemini
 Investigation Assessment
 ↓
 Human Review
-</div>
+```
 
 ### Key Features
 
